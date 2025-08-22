@@ -1,0 +1,19 @@
+# Primero
+
+1. Instalar NodeJS https://nodejs.org/
+2. Instalar Docker https://www.docker.com
+3. Crear una cuenta en Docker y realizar el login en Docker Hub https://hub.docker.com/
+
+# segundo, ejecutar:
+npm init
+
+# tercero, ejecutar:
+npm install express mongoose
+
+# cuarto, ejecutar:
+# Comprobar que docker desktop este einicializado
+# Verificar contexto Docker
+docker context ls
+# Verificar que pueda acceder a imagenes 
+docker pull mongo:6.0
+docker-compose up --build

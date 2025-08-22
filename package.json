@@ -1,0 +1,26 @@
+{
+  "name": "contenedordocker2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Christian Navarrete",
+  "license": "ISC",
+  "description": "1. Instalar NodeJS https://nodejs.org/\r 2. Instalar Docker https://www.docker.com\r 3. Crear una cuenta en Docker y realizar el login en Docker Hub https://hub.docker.com/",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrnavarrete/node-mongo-docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrnavarrete/node-mongo-docker/issues"
+  },
+  "homepage": "https://github.com/chrnavarrete/node-mongo-docker#readme"
+}
