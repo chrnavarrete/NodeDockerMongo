@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
       <p>Hola mundo - EP Newman</p>
       <h1 style="font-weight: bold;">Christian Navarrete</h1>
       <p style="color: green; font-size: 18px;">Push Desarrollador 1</p>
+      <p style="color: green; font-size: 18px;">Push Desarrollador 1 Master</p>
     </div>
   `);
 });
