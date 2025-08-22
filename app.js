@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
       <h1 style="font-weight: bold;">Christian Navarrete</h1>
       <p style="color: green; font-size: 18px;">Push Desarrollador 1</p>
       <p style="color: green; font-size: 18px;">Push Desarrollador 1 Master</p>
+      <p style="color: red; font-size: 18px;">Push Desarrollador 2 </p>
     </div>
   `);
 });
