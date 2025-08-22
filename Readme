@@ -17,3 +17,4 @@ docker context ls
 # Verificar que pueda acceder a imagenes 
 docker pull mongo:6.0
 docker-compose up --build
+# logs registrados
