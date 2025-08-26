@@ -1,20 +1,20 @@
-# Primero
+# 1.  Instalar prerequisitos
 
 1. Instalar NodeJS https://nodejs.org/
 2. Instalar Docker https://www.docker.com
 3. Crear una cuenta en Docker y realizar el login en Docker Hub https://hub.docker.com/
 
-# segundo, ejecutar:
+# 2. Inicializar un nuevo proyecto Node.js 
 npm init
 
-# tercero, ejecutar:
+# 3. Instalar dependencias Express (servidores web) y Mongoose (Biblioteca ODM)
 npm install express mongoose
 
-# cuarto, ejecutar:
-# Comprobar que docker desktop este einicializado
-# Verificar contexto Docker
+# 4. Comprobar que docker desktop este inicializado
+docker info
+# 5. Verificar contexto Docker
 docker context ls
-# Verificar que pueda acceder a imagenes 
+# 6. Verificar que pueda acceder a imagenes de Mongo y descargar
 docker pull mongo:6.0
+# 7. Construir las imágenes de los servicios definidos en tu archivo docker-compose.yml
 docker-compose up --build
-# logs registrados
